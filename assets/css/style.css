@@ -1,3 +1,75 @@
-body {
-    background-color: #E841DC
+
+header {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+.boldname {
+    display: inline;
+    border-style: solid;
+    border-color: rgb(106, 106, 226);
+    border-width: 5px;
+    background-color: rgb(106, 106, 226); 
+    border-left-width: 20px;
+    border-right-width: 20px;
+    float: left
+}   
+nav {
+    display: inline;
+    float:right;
+    margin-right: 200px;
+    margin-top:   50px;
+    margin-bottom: 20px;
+}
+.conatianer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+section {
+    display: inline-block;
+    background: url(assets/images/background.jpg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+}
+.about {
+    display: inline-block;
+    border-style: soild;
+    border-color:black;
+    background-color: white;
+    clear: both;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 5px;
+    border-top: 1px solid black;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    margin-left: 35px;
+}
+img { 
+    display: inline;
+    width: 20%;
+    height: 20%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+p { 
+    display: inline;
+    margin-left: 400px;
+    margin-right: 200px;
+    line-height: 2;
+    font-weight: 400
+}
+footer {
+    text-align: center;
+    background-color:white;
+    border-top: 8px solid #4aaaa5;
+    border-bottom: 30px solid white;
 }
