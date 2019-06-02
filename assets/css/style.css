@@ -2,8 +2,11 @@
 
 header {
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    background-color: white;
+    background-color: #EDEEF0;
+    border-bottom: 8px solid #1F3A4C;
     padding: 10px 0px 100px 0px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: 100%;
     top: -32px;
@@ -14,25 +17,36 @@ header {
     color: white;
     background-color: #1F3A4C;
     position: absolute;
-    left: 73px;
-    bottom: -21px;
+    left: 100px;
+    bottom: -4px;
     padding: 10px 20px 10px 20px;
-    border-radius:2px
+    border-radius: 2px;
 }
 
 nav {
-    display: inline;
+    display: inline-block;
     color: white;
     background: #1F3A4C;
     position: absolute;
-    right: 80px;
-    bottom: 22px;
+    right: 100px;
+    bottom: 15px;
     padding: 10px;
     border-radius:2px
-
 }
+.lineup {
+    display: inline;
+    border-right: 1px solid #EDEEF0;
+    
+  }
+  
+#noline {
+    display: inline;   
+}  
+
 a {
-    padding:5px;
+    padding:10px;
+    border-left: thick 5px;
+    border-color: white;
 }
 
 /* about me section */
@@ -45,11 +59,16 @@ section {
     display: inline-block;
 }
 
+.myname {
+    position: relative;
+    left: 20px;
+}
 .about {
-    border-style: soild;
-    border-color: black;
-    border-width:5px;
-    background-color: white;
+    border-style: solid;
+    border-color: #314655;
+    border-width: 8px;
+    border-radius: 3px;
+    background-color: #EDEEF0;
     clear: both;
     margin-left: 100px;
     margin-right: 100px;
@@ -84,9 +103,9 @@ img {
 }
 
 p { 
-    display: inline;
-    margin-left: 200px;
-    margin-right: 200px;
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
     line-height: 2;
     font-weight: 400;
 }
@@ -94,9 +113,9 @@ p {
 /* footer */
 footer {
     text-align: center;
-    background-color: white;
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 20px solid white;
+    background-color: #EDEEF0;
+    border-top: 8px solid #1F3A4C;
+    border-bottom: 0px solid white;
     position: fixed;
     bottom: 0;
     width: 100%;
