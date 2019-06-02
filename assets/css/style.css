@@ -166,3 +166,76 @@ button {
     background-color: #1F3A4C;
     color: white;
 }
+
+/* 
+====================================
+Portfoliio Page 
+====================================
+*/
+
+.portfoliobox {
+    border-style: solid;
+    border-color: #314655;
+    border-width: 8px;
+    border-radius: 3px;
+    background-color: #EDEEF0;
+    clear: both;
+    margin: -15px 450px 40px 300px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    
+
+}
+.picture {
+    width: 200px;
+    height: 200px;
+}
+
+.pictext {
+    Background-color: #1F3A4C;
+    color: white;
+    text-align: center;
+    padding: 10px 62px 10px 73px;
+    margin: 0px 0px 15px 24px;
+    position: absolute;
+    bottom: 0;
+}
+
+.picbox {
+    display: inline-block;
+    position: absolute 
+}
+
+#pic1 {
+    position: relative;
+    top: -20px;
+    left: 4px;
+}
+
+#pic2 {
+    position: relative;
+    top: -20px;
+    left: 4px;
+}
+#pic3 {
+    margin-left: 368px;
+    position: relative;
+    top: -27px;
+    left: -364px;
+}
+#pic4 {
+    position: relative;
+    top: -256px;
+    left: 253px;
+}
+#pic5 {
+    position: relative;
+    top: -27px;
+    left: -245px;
+}
+
+.portfoot {
+    margin-top: 20px;
+}
