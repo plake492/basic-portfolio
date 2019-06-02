@@ -17,9 +17,9 @@ header {
     color: white;
     background-color: #1F3A4C;
     position: absolute;
-    left: 100px;
+    left: 80px;
     bottom: -4px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 40px 10px 40px;
     border-radius: 2px;
 }
 
@@ -36,8 +36,7 @@ nav {
 .lineup {
     display: inline;
     border-right: 1px solid #EDEEF0;
-    
-  }
+}
   
 #noline {
     display: inline;   
@@ -77,7 +76,11 @@ section {
     padding: 20px;
 }
 
-/* Horizontal line */
+/*
+===========================
+Horizontal line 
+===========================
+*/
 hr {
     display: block;
     height: 1px;
@@ -89,7 +92,7 @@ hr {
 /* ======================== */
 
 h1 {
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 img { 
@@ -111,6 +114,7 @@ p {
 }
 
 /* footer */
+
 footer {
     text-align: center;
     background-color: #EDEEF0;
@@ -119,4 +123,46 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* 
+====================================
+Contact Page 
+====================================
+*/
+
+.box {
+    width: 1000px;
+    height: 25px;
+}
+
+.message {
+    width: 1000px;
+    height: 300px;
+}
+
+.mainbox {
+    border-style: solid;
+    border-color: #314655;
+    border-width: 8px;
+    border-radius: 3px;
+    background-color: #EDEEF0;
+    clear: both;
+    margin: 15px 260px 30px 300px;
+    padding: 20px;
+}
+
+.form {
+    padding: 5px 20px 10px 20px;
+}
+input {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+button {
+    padding: 15px 30px 15px 30px;
+    margin-top: 10px;
+    background-color: #1F3A4C;
+    color: white;
 }
