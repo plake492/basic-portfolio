@@ -13,6 +13,7 @@ a.nav-link:hover
 {
    color: white;
    text-decoration: none;
+   background-color: #314655
 }
 a.nav-link:active
 {
