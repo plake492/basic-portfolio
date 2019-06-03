@@ -2,8 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Monoton);
 
 @font-face {
-    font-family: johnny_fever;
-    src: url("assets/fonts/johnny_fever.otf") format("opentype");
+    font-family: "audiowide";
+    src: url("assets/fonts/audiowide.ttf") format('truetype');
+    src: url("assets/fonts/audiowide.woff") format('woff');
+    src: url("assets/fonts/audiowide.woff2");
+    src: url("assets/fonts/audiowide-regular-webfont.svg");
+
+
 }
 
 header:before {
@@ -43,6 +48,13 @@ header:after {
     padding: 10px 10px 10px 10px;
 }
 
+.parent2{
+    display: flex;
+    background: rgb(20, 255, 47, 0.75) ;
+    margin:20px 10px 150px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
 .container {
     background-color: #FF00FF;
     text-align: center;
@@ -50,7 +62,7 @@ header:after {
     border: 5px double;
     margin: 5px;
     padding: 5px;
-    width: 33.3%
+    width: 33.3%;
 }   
 
 h2:before {
@@ -94,13 +106,40 @@ img:hover {
 .textbox{
     color:#14FF31;
     background: #2414FF;
+    display:block;
+    height: 250px;
+    overflow: auto;    
+    line-height: 2;
     padding: 5px 20px 20px 20px;
     margin: 5px 40px 5px 40px;
     border-style: double;
+
 }
 p {
-    font-family: johnny_fever;
+    font-family: audiowide, Helvetica, sans-serif ;
+    font-size: 13px;
 }
+
+.pictext {
+    position:relative;
+}
+
+aside {
+    font-family: audiowide, Helvetica, sans-serif ;
+    font-size: 13px;
+    color: #14FF31;
+    background-color: #2414FF;
+    margin: 2px 20px 2px 20px;
+    padding: 3px 65px 3px 65px;
+    position: absolute;
+    bottom: 50px;
+    left: 127px;
+    text-align: center;
+}
+aside:hover {
+    opacity: 0.7;
+}
+
 footer {
     text-align: center;
     background-color: #14FF31;
@@ -133,14 +172,12 @@ footer {
     margin: 0;
     margin-top: -px; 
     padding-left: 80px;
-    /* font-weight: normal; */
+    font-weight: normal;
     background-color: #FF00FF;
-
     background-image: -webkit-linear-gradient(#022486 0%, #0AD0FD 30%, #BDFCFC 40%, #D8FFFF 44%, #00081C 44%, #00081C 50%, #074A67 52%, #1CD8FE 60%, #7FEDFE 62%, #96F5FC 70%, #0FD8FA 73%, #0BD2FD 88%, #AFFDFF 100%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
-    
   }
 
   
