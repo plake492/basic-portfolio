@@ -48,7 +48,7 @@ header:after {
     padding: 10px 10px 10px 10px;
 }
 
-.parent2{
+.parent2 {
     display: flex;
     background: rgb(20, 255, 47, 0.75) ;
     margin:20px 10px 150px 10px;
